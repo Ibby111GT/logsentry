@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# report output files
+*.json
+*.csv
+*.log
+reports/
+
+# virtual envs
+.venv/
+venv/
+env/
+
+# packaging
+dist/
+build/
+*.egg-info/
+
+# editors
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
