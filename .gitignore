@@ -26,3 +26,7 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# bundled synthetic sample logs are part of the project
+!samples/
+!samples/*.log
