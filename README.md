@@ -1,5 +1,7 @@
 # LogSentry — Security Log Analyzer
 
+[![CI](https://github.com/Ibby111GT/logsentry/actions/workflows/ci.yml/badge.svg)](https://github.com/Ibby111GT/logsentry/actions/workflows/ci.yml)
+
 A small log analysis engine that parses security logs, applies 12 rule-based
 detections, and prints risk-scored findings for triage. Built with Python's
 standard library — no external dependencies, no network calls.
